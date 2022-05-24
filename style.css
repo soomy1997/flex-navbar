@@ -1,0 +1,33 @@
+.nav{
+background-color: #525151;
+display: flex;
+padding: 1rem 0;
+align-items: center;
+justify-content: flex-end;
+}
+.nav-title{
+    margin: auto;
+    color: white;
+    margin-left: 2em;
+}
+.nav-links{
+    display: flex;
+   
+}
+.nav-links a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.nav-links li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+.btn{
+    justify-content: flex-end;
+    color: #f1eeee;
+    background-color: #32aff1;
+    box-shadow: 5px 5px black;
+    width: 100px;
+    height: 30px;
+}
